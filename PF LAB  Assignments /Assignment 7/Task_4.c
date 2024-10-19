@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int  k=1,r=0,n,count= 0,z = 0;
+    int  k=1,n,count= 0,z = 0;
     printf("array size = ");
     scanf("%d",&n);
     int num[n],more[n];
@@ -57,7 +57,6 @@ int main() {
         if(more[i] == 1 && z == 0){
         printf("%d ",num[i]);
         z++;
-        r++;
         }
         else if(more[i] == 1){
             printf("and %d ",num[i]);
